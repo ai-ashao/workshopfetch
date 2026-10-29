@@ -8,7 +8,7 @@
 
 **查找 Steam 创意工坊 Mod 和地图的下载方式。**
 
-把创意工坊链接粘贴进来，查看有没有 Steam 下载直链。没有直链时，也能找到对应的 SteamCMD 命令和使用教程。
+粘贴想下载的 Mod 或地图链接，查看可用的下载方式。能直接下载时，页面会显示下载按钮；没有下载按钮时，可以跟着教程在自己的电脑上尝试下载。
 
 [![官网](https://img.shields.io/badge/官网-workshopfetch.com-e36b25?style=flat-square)](https://workshopfetch.com/zh-cn)
 [![使用方法](https://img.shields.io/badge/指南-使用方法-171714?style=flat-square)](https://workshopfetch.com/zh-cn/how-to-use)
@@ -28,9 +28,9 @@ WorkshopFetch 可以直接在浏览器里免费使用，不用注册账号。目
 
 1. 在 Steam 创意工坊找到想下载的 Mod 或地图，复制页面链接。也可以直接使用链接里的数字 ID（Published File ID）。
 2. [打开 WorkshopFetch](https://workshopfetch.com/zh-cn)，粘贴链接或 ID，点击「查询下载方式」。先核对标题和所属游戏，确认没找错。
-3. 有下载按钮时，点击即可访问 Steam 提供的文件链接。没有按钮时，按照结果页的 SteamCMD 教程，在自己的电脑上尝试下载。
+3. 查看查询结果。有下载按钮就点击下载；没有按钮，就打开页面上的教程，按步骤尝试另一种下载方法。
 
-没用过 SteamCMD？可以先看[安装和使用教程](https://workshopfetch.com/zh-cn/blog/steamcmd-workshop)。它是需要在电脑上运行的命令行工具，WorkshopFetch 只帮你准备命令，不会代你执行。
+另一种方法需要用到 Steam 官方提供的工具 **SteamCMD**。你需要把它安装到自己的电脑上，再按[教程](https://workshopfetch.com/zh-cn/blog/steamcmd-workshop)输入命令。WorkshopFetch 会准备好这项作品对应的命令，但不会替你运行。
 
 相关教程：[完整使用步骤](https://workshopfetch.com/zh-cn/how-to-use) · [在哪里找作品 ID](https://workshopfetch.com/zh-cn/blog/find-steam-workshop-id) · [下载卡住了怎么办](https://workshopfetch.com/zh-cn/blog/steam-workshop-download-stuck)
 
@@ -38,11 +38,11 @@ WorkshopFetch 可以直接在浏览器里免费使用，不用注册账号。目
 
 ### 为什么有些 Mod 还是下载不了？
 
-Steam 不会为每个作品提供公开下载链接。即使用 SteamCMD，也可能需要拥有游戏本体，或登录有访问权限的 Steam 账号。WorkshopFetch 无法绕过这些要求，也不能下载私有作品，所以有了命令也不一定能成功下载。
+Steam 没有为每个作品返回可用的下载地址。用 SteamCMD 尝试下载时，也可能需要拥有游戏本体，或登录有访问权限的 Steam 账号。WorkshopFetch 无法绕过这些要求，也不能下载私有作品，因此按教程操作也不一定能下载成功。
 
 ### 下载的文件来自哪里？
 
-直链文件来自 Steam 的下载服务器。本站只展示 Steam 返回的链接，不保存、中转或重新分发创意工坊文件，也不会索取你的 Steam 密码。
+点击下载按钮后，文件会从 Steam 的服务器下载到你的设备。本站只使用 Steam 返回的下载地址，不保存、中转或重新分发创意工坊文件，也不会索取你的 Steam 密码。
 
 ### 这个仓库包含网站源码吗？
 
