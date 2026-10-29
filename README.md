@@ -6,9 +6,9 @@
 
 # WorkshopFetch
 
-**Find download options for Steam Workshop mods and maps.**
+**Free online Steam Workshop downloader for mods, maps, and more.**
 
-Paste a mod or map's Workshop link to see the available download options. You'll see a download button when Steam provides a file link. Otherwise, you'll get a guide to another method you can try on your computer.
+No sign-up required. Paste a Workshop link or item ID to find available downloads.
 
 [![Website](https://img.shields.io/badge/Website-workshopfetch.com-e36b25?style=flat-square)](https://workshopfetch.com/)
 [![Guide](https://img.shields.io/badge/Guide-How_to_use-171714?style=flat-square)](https://workshopfetch.com/how-to-use)
@@ -22,23 +22,21 @@ English · [简体中文](README.zh-CN.md)
 
 [![WorkshopFetch homepage: paste a Steam Workshop URL or File ID to check download options](assets/home-en.jpg)](https://workshopfetch.com/)
 
-WorkshopFetch is free to use in your browser, with no sign-up. It checks one public Workshop item at a time. For collections, open the individual mod or map you want to check.
+WorkshopFetch works in your browser and checks one public Workshop item at a time. For collections, open the individual mod or map you want to download.
 
-## How to use it
+## Steam Workshop Mod Downloads
 
 1. Copy a mod or map's URL from Steam Workshop. You can also use its numeric ID (Published File ID).
-2. [Open WorkshopFetch](https://workshopfetch.com/), paste the link or ID, and click **Check Download Options**. Check the title and game to make sure it's the right item.
-3. Check the result. If there's a download button, click it to download the file. If not, open the guide on the result page to try another download method.
+2. [Open WorkshopFetch](https://workshopfetch.com/), paste the link or ID, and click **Download Now**. On the result page, check the title and game to make sure it's the right item.
+3. Use **Download file** if the button appears. If it doesn't, follow [How to Use](https://workshopfetch.com/how-to-use) for another method you can try on your computer.
 
-The other method uses **SteamCMD**, an official Steam tool. You'll need to install it on your computer and enter a command by following the [guide](https://workshopfetch.com/blog/steamcmd-workshop). WorkshopFetch prepares the command for your item, but doesn't run it for you.
+Need help? [Find an item's ID](https://workshopfetch.com/blog/find-steam-workshop-id) · [Troubleshoot downloads](https://workshopfetch.com/steam-workshop-download-not-working)
 
-Need help? [Full walkthrough](https://workshopfetch.com/how-to-use) · [Find an item's ID](https://workshopfetch.com/blog/find-steam-workshop-id) · [Troubleshoot downloads](https://workshopfetch.com/steam-workshop-download-not-working)
-
-## Common questions
+## Steam Workshop Download FAQ
 
 ### Why can't I download some items?
 
-Steam doesn't make every item available to download in a browser. Downloading with SteamCMD may also require you to own the game or sign in with an account that has access. WorkshopFetch can't bypass those requirements or make private content available, so following the guide doesn't guarantee a successful download.
+Steam doesn't make every item available to download in a browser. Other download methods may require you to own the game or sign in with a Steam account that has access. WorkshopFetch can't bypass those requirements or make private content available, so following the guide doesn't guarantee a successful download.
 
 ### Where do the files come from?
 
