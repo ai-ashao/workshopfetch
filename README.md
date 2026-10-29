@@ -6,9 +6,9 @@
 
 # WorkshopFetch
 
-**Check Steam Workshop download options for mods, maps, and more.**
+**Find download options for Steam Workshop mods and maps.**
 
-Paste a Workshop link or Published File ID. Get a direct Steam link when available, or an item-specific SteamCMD command to run on your own computer.
+Paste a Workshop link to check for a direct download from Steam, or get the SteamCMD command and instructions for that item.
 
 [![Website](https://img.shields.io/badge/Website-workshopfetch.com-e36b25?style=flat-square)](https://workshopfetch.com/)
 [![Guide](https://img.shields.io/badge/Guide-How_to_use-171714?style=flat-square)](https://workshopfetch.com/how-to-use)
@@ -22,74 +22,35 @@ English · [简体中文](README.zh-CN.md)
 
 [![WorkshopFetch homepage: paste a Steam Workshop URL or File ID to check download options](assets/home-en.jpg)](https://workshopfetch.com/)
 
-## What is WorkshopFetch?
+WorkshopFetch is free to use in your browser, with no sign-up. It checks one public Workshop item at a time. For collections, open the individual mod or map you want to check.
 
-[WorkshopFetch](https://workshopfetch.com/) is a free online tool for checking one public Steam Workshop item at a time. It retrieves public item details from Steam and shows the download options Steam makes available. No WorkshopFetch account or installation is needed to check an item.
+## How to use it
 
-This is the official public product overview and documentation repository. The website's application source code is private.
+1. Copy a mod or map's URL from Steam Workshop. You can also use its numeric ID (Published File ID).
+2. [Open WorkshopFetch](https://workshopfetch.com/), paste the link or ID, and click **Check Download Options**. Check the title and game to make sure it's the right item.
+3. If a download button appears, it opens the file on Steam's servers. Otherwise, follow the SteamCMD instructions on the result page to try downloading it on your computer.
 
-## Why use it?
+New to SteamCMD? Start with the [installation and usage guide](https://workshopfetch.com/blog/steamcmd-workshop). WorkshopFetch prepares the command; you run it locally.
 
-- **A link or an ID is enough.** Paste a Workshop item URL or its numeric Published File ID.
-- **Check the item before proceeding.** Review the returned title and game to confirm you have the right content.
-- **Use Steam's direct link when available.** A download button appears only when Steam returns a valid public file URL on an approved Steam download domain.
-- **Get a local SteamCMD starting point.** When there is no public direct link, copy the item's command and follow the installation and usage guide on your own computer.
-- **No file hosting or proxying.** WorkshopFetch never stores, caches, or redistributes Workshop files. Direct downloads go from your browser to Steam's CDN.
-- **Read in your language.** The website is available in English, Simplified Chinese, Traditional Chinese, Portuguese (Brazil), Turkish, Indonesian, Vietnamese, Spanish, German, Russian, Japanese, French, Polish, Korean, and Italian.
+Need help? [Full walkthrough](https://workshopfetch.com/how-to-use) · [Find an item's ID](https://workshopfetch.com/blog/find-steam-workshop-id) · [Troubleshoot downloads](https://workshopfetch.com/steam-workshop-download-not-working)
 
-## Use it in three steps
+## Common questions
 
-1. **Copy a single item's link.** Open the item in Steam Workshop and copy its URL, such as `https://steamcommunity.com/sharedfiles/filedetails/?id=122941542`.
-2. **[Open WorkshopFetch](https://workshopfetch.com/) and check it.** Paste the URL or ID, then choose **Check Download Options**.
-3. **Use the returned option.** Open the direct Steam link if one is available. Otherwise, follow the item-specific SteamCMD instructions locally.
+### Why can't I download some items?
 
-The example shows the input format; it does not guarantee that this item has a public direct link or can be downloaded through SteamCMD.
+Steam doesn't provide a public download link for every item. SteamCMD may also require you to own the game or sign in with an account that has access. WorkshopFetch can't bypass those requirements or make private content available, so a command isn't a guarantee that the download will work.
 
-## Understand the result
+### Where do the files come from?
 
-| Result | What to do |
-| --- | --- |
-| Steam returns a valid public file link | Open the download link to Steam's CDN. |
-| Steam returns item details without a public file link | Review the generated SteamCMD command and local-use guide. |
-| The item cannot be retrieved | Check the URL, visibility, and Steam's availability; see the troubleshooting guide below. |
-
-SteamCMD runs on your computer. WorkshopFetch never runs it for you or asks for your Steam password. Access depends on the game, ownership, authentication, visibility, and permissions; a generated command does not guarantee success.
-
-## Guides
-
-- [How to use WorkshopFetch](https://workshopfetch.com/how-to-use)
-- [Install and use SteamCMD for Workshop items](https://workshopfetch.com/blog/steamcmd-workshop)
-- [Find a Steam Workshop item's ID](https://workshopfetch.com/blog/find-steam-workshop-id)
-- [Troubleshoot Steam Workshop downloads](https://workshopfetch.com/steam-workshop-download-not-working)
-- [Browse game guides](https://workshopfetch.com/games)
-
-## FAQ
-
-### Is it free? Do I need an account?
-
-WorkshopFetch is free to use and does not require a WorkshopFetch account. Steam or a game may still require an account or ownership for downloading particular items.
-
-### Can it download every Workshop item?
-
-No. Direct links appear only when Steam supplies them. SteamCMD access also varies by game and item. WorkshopFetch cannot bypass ownership, private-item restrictions, or other Steam and game access rules.
-
-### Does WorkshopFetch host mods or ask for Steam credentials?
-
-No. It provides public metadata, valid direct Steam links when returned, and local SteamCMD guidance. It does not host Workshop files or handle Steam credentials.
-
-### Does it download an entire collection?
-
-The tool checks one Workshop item at a time. Use an individual item's URL or Published File ID.
+Direct downloads come from Steam's CDN. WorkshopFetch only shows links returned by Steam; it doesn't host, cache, proxy, or redistribute Workshop files, and it never asks for your Steam password.
 
 ### Is the website open source?
 
-No. This repository contains the product introduction, screenshots, and usage documentation. It does not include the website's application source code.
+No. This is the official repository for the product overview, screenshots, and guides. The website's source code is private.
 
 ## Feedback
 
-Found a problem or have a suggestion? [Open an issue](https://github.com/ai-ashao/workshopfetch/issues) with the public page URL, what you expected, and what happened. Please do not include passwords or other private information.
-
-For other inquiries, visit [About WorkshopFetch](https://workshopfetch.com/about).
+Something not working? [Open an issue](https://github.com/ai-ashao/workshopfetch/issues) with the public Workshop URL and what went wrong. Suggestions are welcome too. Please leave out passwords and other private information.
 
 ---
 

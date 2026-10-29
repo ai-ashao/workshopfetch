@@ -6,9 +6,9 @@
 
 # WorkshopFetch
 
-**查询 Steam 创意工坊 Mod、地图等内容的下载方式。**
+**查找 Steam 创意工坊 Mod 和地图的下载方式。**
 
-粘贴创意工坊链接或 Published File ID。Steam 返回公开直链时直接打开；没有直链时，获取对应的 SteamCMD 命令，在自己的电脑上运行。
+把创意工坊链接粘贴进来，查看有没有 Steam 下载直链。没有直链时，也能找到对应的 SteamCMD 命令和使用教程。
 
 [![官网](https://img.shields.io/badge/官网-workshopfetch.com-e36b25?style=flat-square)](https://workshopfetch.com/zh-cn)
 [![使用方法](https://img.shields.io/badge/指南-使用方法-171714?style=flat-square)](https://workshopfetch.com/zh-cn/how-to-use)
@@ -22,74 +22,35 @@
 
 [![WorkshopFetch 中文首页：输入创意工坊链接或 ID，查询下载方式](assets/home-zh-cn.jpg)](https://workshopfetch.com/zh-cn)
 
-## WorkshopFetch 是什么？
+WorkshopFetch 可以直接在浏览器里免费使用，不用注册账号。目前每次查询一个 Mod、地图或其他创意工坊作品；如果你打开的是合集，请先进入想下载的单个作品页面。
 
-[WorkshopFetch](https://workshopfetch.com/zh-cn) 是一个免费的在线工具，一次查询一个公开的 Steam 创意工坊内容。它向 Steam 查询公开信息，并展示 Steam 当前提供的下载方式。查询本身无需注册 WorkshopFetch 账号，也不需要安装软件。
+## 怎么用？
 
-这里是 WorkshopFetch 的官方产品介绍与使用文档仓库。网站业务源码保持私有。
+1. 在 Steam 创意工坊找到想下载的 Mod 或地图，复制页面链接。也可以直接使用链接里的数字 ID（Published File ID）。
+2. [打开 WorkshopFetch](https://workshopfetch.com/zh-cn)，粘贴链接或 ID，点击「查询下载方式」。先核对标题和所属游戏，确认没找错。
+3. 有下载按钮时，点击即可访问 Steam 提供的文件链接。没有按钮时，按照结果页的 SteamCMD 教程，在自己的电脑上尝试下载。
 
-## 为什么用它？
+没用过 SteamCMD？可以先看[安装和使用教程](https://workshopfetch.com/zh-cn/blog/steamcmd-workshop)。它是需要在电脑上运行的命令行工具，WorkshopFetch 只帮你准备命令，不会代你执行。
 
-- **输入链接或 ID 即可查询。** 支持单个创意工坊内容的页面链接，或数字 Published File ID。
-- **先核对内容。** 查看 Steam 返回的标题和所属游戏，确认是自己需要的 Mod 或地图。
-- **有 Steam 直链就直接打开。** 只有 Steam 返回经过校验、属于允许的 Steam 下载域名的 HTTPS 公开链接时，才显示下载按钮。
-- **没有直链时，获取本地 SteamCMD 指引。** 复制该内容对应的命令，并按照教程在自己的电脑上安装和运行 SteamCMD。
-- **本站不存储或中转文件。** 不托管、缓存或重新分发创意工坊文件；直链下载由浏览器直接访问 Steam CDN。
-- **支持 15 种语言。** 包括英语、简体中文、繁体中文、巴西葡萄牙语、土耳其语、印尼语、越南语、西班牙语、德语、俄语、日语、法语、波兰语、韩语和意大利语。
-
-## 三步使用
-
-1. **复制单个内容的链接。** 在 Steam 创意工坊打开目标内容，复制页面地址，例如 `https://steamcommunity.com/sharedfiles/filedetails/?id=122941542`。
-2. **[打开 WorkshopFetch](https://workshopfetch.com/zh-cn) 查询。** 粘贴链接或数字 ID，点击「查询下载方式」。
-3. **使用返回的结果。** 有公开 Steam 直链时打开直链；没有时，按该内容的 SteamCMD 指引在本机尝试运行。
-
-示例仅用于说明输入格式，不代表该内容一定存在公开直链，或一定能够通过 SteamCMD 下载。
-
-## 如何理解查询结果？
-
-| 查询结果 | 接下来怎么做 |
-| --- | --- |
-| Steam 返回有效的公开文件链接 | 打开下载链接，直接访问 Steam CDN。 |
-| Steam 返回内容信息，但没有公开文件链接 | 查看对应的 SteamCMD 命令和本地使用教程。 |
-| 无法查询到内容 | 检查链接、内容可见性和 Steam 服务状态，并参考下方故障排查指南。 |
-
-SteamCMD 需要在你自己的电脑上运行。WorkshopFetch 不会代为执行，也不会索取 Steam 密码。能否下载取决于游戏、所有权、登录状态、可见性和访问权限；生成命令不代表下载一定成功。
-
-## 使用指南
-
-- [WorkshopFetch 使用方法](https://workshopfetch.com/zh-cn/how-to-use)
-- [SteamCMD 安装与创意工坊使用教程](https://workshopfetch.com/zh-cn/blog/steamcmd-workshop)
-- [如何找到创意工坊内容的 ID](https://workshopfetch.com/zh-cn/blog/find-steam-workshop-id)
-- [创意工坊下载卡住或不下载：故障排查](https://workshopfetch.com/zh-cn/blog/steam-workshop-download-stuck)
-- [查看游戏指南](https://workshopfetch.com/zh-cn/games)
+相关教程：[完整使用步骤](https://workshopfetch.com/zh-cn/how-to-use) · [在哪里找作品 ID](https://workshopfetch.com/zh-cn/blog/find-steam-workshop-id) · [下载卡住了怎么办](https://workshopfetch.com/zh-cn/blog/steam-workshop-download-stuck)
 
 ## 常见问题
 
-### 免费吗？需要注册账号吗？
+### 为什么有些 Mod 还是下载不了？
 
-WorkshopFetch 免费使用，无需注册本站账号。但下载某些内容时，Steam 或游戏本身仍可能要求登录或拥有游戏。
+Steam 不会为每个作品提供公开下载链接。即使用 SteamCMD，也可能需要拥有游戏本体，或登录有访问权限的 Steam 账号。WorkshopFetch 无法绕过这些要求，也不能下载私有作品，所以有了命令也不一定能成功下载。
 
-### 所有创意工坊内容都能下载吗？
+### 下载的文件来自哪里？
 
-不能保证。只有 Steam 提供公开链接时才有直链；SteamCMD 的访问条件也因游戏和内容而异。WorkshopFetch 不能绕过游戏所有权、私有内容限制或其他访问规则。
+直链文件来自 Steam 的下载服务器。本站只展示 Steam 返回的链接，不保存、中转或重新分发创意工坊文件，也不会索取你的 Steam 密码。
 
-### 本站会保存 Mod 文件或 Steam 密码吗？
+### 这个仓库包含网站源码吗？
 
-不会。本站提供公开信息、Steam 返回的有效直链和本地 SteamCMD 指引，不托管创意工坊文件，也不处理 Steam 凭据。
-
-### 可以一次下载整个合集吗？
-
-目前一次查询一个创意工坊内容，请使用单个内容的链接或 Published File ID。
-
-### 网站开源吗？
-
-不开源。本仓库公开产品介绍、截图和使用文档，不包含网站业务源码。
+不包含。这是 WorkshopFetch 的官方介绍仓库，公开产品介绍、截图和使用文档，网站源码没有开源。
 
 ## 问题反馈
 
-遇到问题或有建议，可以[提交 Issue](https://github.com/ai-ashao/workshopfetch/issues)，附上公开页面链接、预期结果和实际情况。请不要包含密码或其他私人信息。
-
-其他信息见[关于 WorkshopFetch](https://workshopfetch.com/zh-cn/about)。
+用的时候遇到问题，可以[提个 Issue](https://github.com/ai-ashao/workshopfetch/issues)，贴上公开的创意工坊链接，说说卡在哪一步。有建议也欢迎告诉我们。请不要附上密码或其他私人信息。
 
 ---
 
