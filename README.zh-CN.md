@@ -6,9 +6,7 @@
 
 # WorkshopFetch
 
-**免费在线 Steam 创意工坊下载工具。**
-
-无需注册。粘贴 Mod、地图等创意工坊内容的链接或 ID，查看可用的下载方式。
+免费在线 Steam 创意工坊下载工具，支持一键解析 Mod、地图等创意工坊资源。无需注册，粘贴链接即可快速下载。
 
 [![官网](https://img.shields.io/badge/官网-workshopfetch.com-e36b25?style=flat-square)](https://workshopfetch.com/zh-cn)
 [![使用方法](https://img.shields.io/badge/指南-使用方法-171714?style=flat-square)](https://workshopfetch.com/zh-cn/how-to-use)
